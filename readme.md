@@ -61,6 +61,7 @@ Para más información, visite estos sitios:
 
 ## Diseñado con :heart: por: 
 <img src="https://github.com/teslalab/SIUCOM/blob/main/img/LOGO%20TESLA.png" height="30">
-[Angel Isidro](https://github.com/angelisidro)
+
+-[Angel Isidro](https://github.com/angelisidro)
 
 
