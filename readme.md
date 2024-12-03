@@ -29,7 +29,7 @@ GND | GND
 ## Errores 
 
 ### BME680 error code : -2
-![](/Img/error1.PNG)
+![](/img/error1.PNG)
 
 Para solucionar este error debemos hacer algunos cambios en nuestro codigo, si estas utilizando la libreria ***wire.h*** este es el codigo que debes modificar para que tu sensore BME680 Funcione adecuadamente.
 
