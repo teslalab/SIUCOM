@@ -12,6 +12,8 @@ Este es un sensor creado por el fabricante de dispositivos electronicos BOSCH, e
 - I2C
 - SPI 
 
+<img src="https://github.com/teslalab/SIUCOM/blob/main/img/LOGO%20TESLA.png" height="300">
+
 ## Voltajes de alimentación
 
 - 3V3
