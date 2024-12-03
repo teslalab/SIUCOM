@@ -2,10 +2,11 @@
 <img src="https://github.com/teslalab/SIUCOM/blob/main/img/_DSC0873.jpg" height="300">
 
 
-Este es un sensor creado por el fabricante de dispositivos electronicos BOSCH, es capas de hacer lecturas ambientales en un pequeño empaquetado. Este pequeño sensor tiene la capacidad de leer las siguientes variables:
+Este es un sensor creado por el fabricante de dispositivos electrónicos BOSCH, es capaz de hacer lecturas ambientales en un pequeño empaquetado. Este pequeño sensor tiene la capacidad de leer las siguientes variables:
+
 - Temperatura
 - Humedad 
-- Presión Barometrica
+- Presión Barométrica
 - VOC gases.
 - CO2 Equivalente
 
@@ -35,9 +36,9 @@ GND | GND
 ### BME680 error code : -2
 ![](/img/error1.PNG)
 
-Para solucionar este error debemos hacer algunos cambios en nuestro codigo, si estas utilizando la libreria ***wire.h*** este es el codigo que debes modificar para que tu sensore BME680 Funcione adecuadamente.
+Para solucionar este error debemos hacer algunos cambios en nuestro código, si estás utilizando la libreria ***wire.h*** este es el código que debes modificar para que tu sensore BME680. Funcione adecuadamente.
 
-Busca en tu codigo la linea que contenga ```Wire.begin();``` y reemplazala por la siguiente linea de código:
+Busca en tu código la linea que contenga ```Wire.begin();``` y reemplazala por la siguiente linea de código:
 ```cpp
 Wire.begin( SCL_#PIN , SDA_#PIN );
 ```
